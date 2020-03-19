@@ -325,25 +325,25 @@ function showMore() {
 
 
 
-CocktailBase.add("Пиранья", "60%", "piranha.jpg", "водка", "ликер", "Кока-Кола");
-CocktailBase.add("Светящийся", "30%", "luminous.jpg", "водка", "тоник", "лед");
-CocktailBase.add("Оазис", "45%", "oasis.jpg", "джин", "ликер Блю Кюрасо", "тоник");
-CocktailBase.add("Красный грех", "18%", "red-sin.jpg", "ликер", "сок апельсиновый", "шампанское красное", "лед", "сахар");
-CocktailBase.add("С апельсиновым соком", "32%", "orange-juice.jpg", "мартини", "водка", "сок апельсиновый", "лед");
-CocktailBase.add("Мохито", "8%", "mojito.jpg", "мята свежая", "сахар коричневый", "ром Bacardi Carta Blanca", "Спрайт", "лайм", "лед");
-CocktailBase.add("Дайкири", "20%", "daiquiri.jpg", "ром", "лайм", "лимон", "сироп сахарный");
-CocktailBase.add("Пина колада", "25%", "pina-colada.jpg", "лед", "сок ананасовый", "ром", "сливки", "молоко кокосовое", "ананас");
-CocktailBase.add("Любовь на пляже", "35%", "love-beach.jpg", "водка", "шнапс персиковый", "сок клюквенный", "сок ананасовый");
-CocktailBase.add("Б-52", "80%", "b52.jpg", "ликер кофейный", "ликер Бейлис", "ликер");
-CocktailBase.add("Гавайский", "70", "hawaii.jpg", "лед", "сок ананасовый", "ликер Блю Кюрасо", "ром", "молоко кокосовое");
-CocktailBase.add("Морской Бриз", "40%", "sea-breeze.jpg", "водка", "сок грейпфрутовый", "сок клюквенный");
-CocktailBase.add("Араго", "50%", "arago.jpg", "коньяк", "ликер", "сливки");
-CocktailBase.add("Клубничный", 34, "strawberry.jpg", "клубника", "водка", "сахар", "лайм");
-CocktailBase.add("Удар Кнутом", "92%", "whip.jpg", "коньяк", "вермут сухой", "вермут сладкий", "ликер апельсиновый", "Абсент");
-CocktailBase.add("Бакарди", "15%", "bacardi.jpg", "ром Bacardi Carta Blanca", "лайм", "сироп");
-CocktailBase.add("Голубая Акула", "70%", "blue-shark.jpg", "водка", "текила", "ликер Блю Кюрасо");
-CocktailBase.add("Отвертка", "40%", "screwdriver.jpg", "водка", "сок апельсиновый");
-CocktailBase.add("Куба Либре", "50%", "cuba-libre.jpg", "лайм", "ром Bacardi Carta Blanca", "Кока-Кола");
-CocktailBase.add("Лимончелло", "35%", "limonchello.jpg", "водка", "лимон", "вода", "сахар");
-CocktailBase.add("Шипучий Джин", "20%", "gin-fizz.jpg", "джин", "лимон", "сахар", "содовая");
-CocktailBase.add("Черный Русский", "60%", "black-russian.jpg", "водка", "ликер кофейный", "ликер");
+CocktailBase.add("Piranha", "60%", "piranha.jpg", "vodka", "liqueur", "Coca-Cola");
+CocktailBase.add("Luminous", "30%", "luminous.jpg", "vodka", "tonic water", "ice");
+CocktailBase.add("Oasis", "45%", "oasis.jpg", "gin", "Blue Curacao liqueur", "tonic water");
+CocktailBase.add("Red Sin", "18%", "red-sin.jpg", "liqueur", "orange juice", "red champagne", "ice", "sugar");
+CocktailBase.add("With Orange Juice", "32%", "orange-juice.jpg", "martini", "vodka", "orange juice", "ice");
+CocktailBase.add("Mojito", "8%", "mojito.jpg", "fresh mint", "brown sugar", "Bacardi Carta Blanca rum", "Sprite", "lime", "ice");
+CocktailBase.add("Daiquiri", "20%", "daiquiri.jpg", "rum", "lime", "lemon", "sugar syrup");
+CocktailBase.add("Pina Colada", "25%", "pina-colada.jpg", "ice", "pineapple juice", "rum", "cream", "coconut milk", "pineapple");
+CocktailBase.add("Love on the Beach", "35%", "love-beach.jpg", "vodka", "peach schnapps", "cranberry juice", "pineapple juice");
+CocktailBase.add("B-52", "80%", "b52.jpg", "coffee liqueur", "Baileys liqueur", "liqueur");
+CocktailBase.add("Hawaii", "70", "hawaii.jpg", "ice", "pineapple juice", "Blue Curacao liqueur", "rum", "coconut milk");
+CocktailBase.add("Sea Breeze", "40%", "sea-breeze.jpg", "vodka", "grapefruit juice", "cranberry juice");
+CocktailBase.add("Arago", "50%", "arago.jpg", "cognac", "liqueur", "cream");
+CocktailBase.add("Strawberry", 34, "strawberry.jpg", "strawberry", "vodka", "sugar", "lime");
+CocktailBase.add("Whip", "92%", "whip.jpg", "cognac", "dry vermouth", "sweet vermouth", "orange liqueur", "absinthe");
+CocktailBase.add("Bacardi", "15%", "bacardi.jpg", "Bacardi Carta Blanca rum", "lime", "syrup");
+CocktailBase.add("Blue Shark", "70%", "blue-shark.jpg", "vodka", "tequila", "Blue Curacao liqueur");
+CocktailBase.add("Screwdriver", "40%", "screwdriver.jpg", "vodka", "orange juice");
+CocktailBase.add("Cuba Libre", "50%", "cuba-libre.jpg", "lime", "Bacardi Carta Blanca rum", "Coca-Cola");
+CocktailBase.add("Limonchello", "35%", "limonchello.jpg", "vodka", "lemon", "water", "sugar");
+CocktailBase.add("Gin Fizz", "20%", "gin-fizz.jpg", "gin", "lemon", "sugar", "soda");
+CocktailBase.add("Black Russian", "60%", "black-russian.jpg", "vodka", "coffee liqueur", "liqueur");

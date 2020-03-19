@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Меню коктейлей</title>
+    <title>Coctails Menu</title>
 
     <link href="style/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
@@ -16,21 +16,21 @@
     <div class="wrapper">
       <div class="content">
 
-        <h1 class="content__title">Меню коктейлей</h1>
+        <h1 class="content__title">Coctails menu</h1>
 
         <div class="content__container cocktails-container">
           <div class="cocktails-container__controls controls">
             <div class="controls__sorting-panel sorting-panel">
               <select class="sorting-panel__sorting-field-selection" name="sortingField">
-                <option value="name">По имени</option>
-                <option value="alcohol">По крепости</option>
+                <option value="name">By name</option>
+                <option value="alcohol">By volume</option>
               </select> 
               <span class="sorting-panel__sorting-up-arrow sorting-arrow">&#8593;</span>
               <span class="sorting-panel__sorting-down-arrow sorting-arrow">&#8595;</span>
             </div>
 
             <div class="controls__filtering-panel filtering-panel">
-              <span class="filtering-panel__label">Алкоголь:&nbsp;</span>
+              <span class="filtering-panel__label">Volume:&nbsp;</span>
               <div class="filtering-panel__control">
                 <select class="filtering-panel__alcohol-filter-selection" name="alcoholFilterField">
                   <option value="10">&gt;10%</option>
@@ -47,16 +47,16 @@
             </div>
 
             <div class="controls__search-panel search-panel">
-              <input class="search-panel__search-field" type="text" placeholder="Поиск...">
+              <input class="search-panel__search-field" type="text" placeholder="Search...">
               <button class="search-panel__search-button controls-button" type="submit"><i class="fa fa-search"></i></button>
               <button class="search-panel__clear-search-button controls-button" type="submit"><i class="fa fa-remove"></i></button>
             </div>
           </div>
 
-          <div class="cocktails-container__list cocktails-list"></div> <!-- заполняется в скрипте -->
+          <div class="cocktails-container__list cocktails-list"></div> <!-- being filled in the script -->
           
           <input class="cocktails-container__load-more-button" type="button" name="load-more">
-          <label class="cocktails-container__load-more-button-label" for="load-more">Показать еще</label>
+          <label class="cocktails-container__load-more-button-label" for="load-more">Show more</label>
 
           <div class="cocktails-container__pagination pagination"></div>
         </div>   
